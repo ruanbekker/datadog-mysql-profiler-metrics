@@ -108,3 +108,12 @@ preview data:
 [{'metric': 'mysql.custom_metric.foo.io_misc_requests', 'points': Decimal('93'), 'host': 'datadog-mysql', 'tags': ['mysql:performance_data']},..]
 ```
 
+## Screenshots:
+
+Metrics:
+
+<img width="754" alt="image" src="https://user-images.githubusercontent.com/30043398/61129616-0f0c2200-a4b5-11e9-9a02-4ab1ce2821a6.png">
+
+Dashboard:
+
+<img width="1400" alt="image" src="https://user-images.githubusercontent.com/30043398/61129752-614d4300-a4b5-11e9-9858-3ada60a0e4c4.png">
