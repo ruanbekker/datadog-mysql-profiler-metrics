@@ -1,7 +1,13 @@
 # datadog-mysql-profiler-metrics
 MySQL Table Level Metrics for Datadog in Python
 
+## About
+
+Datadog does not provide MySQL Table Level metrics out of the box, so I used Python and Datadog's API to achieve getting table statistics into Datadog as a custom metric.
+
 ## Requirements
+
+You will need a datadog account, api/app keys, mysql server and the python packages
 
 ### Datadog Keys:
 
@@ -83,7 +89,7 @@ Preview the data:
 [{'rows_inserted': 19967, }, {'rows_updated': 0}]
 ```
 
-## Map Json to Datadog Metrics:
+## Map JSON to Datadog Metrics:
 
 ```
 metrics = []
